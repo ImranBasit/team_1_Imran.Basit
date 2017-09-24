@@ -5,9 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-<link rel="stylesheet" href="css/style.css" type="text/css">
 <link rel="stylesheet" href="css/oefening_stijl.css" type="text/css">
-
 <title>Guldensporencollege</title>
 </head>
 
@@ -39,14 +37,14 @@
 
     <!-- samenhang van de links naar andere pagina, forms, enz -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-left">
+      <ul class="nav navbar-nav">
         <li class="active"><a href="hoofdpagina.html">De vakantie  <span class="sr-only">(current)</span></a></li>
          <li class="active"><a href="mening.html" >Mijn mening <span class="sr-only">(current)</span></a></li>
           <li class="active"><a href= "commentaar.html">Commentaar  <span class="sr-only">(current)</span></a></li>        
         
         
       </ul>
-    <ul class="nav navbar-nav navbar-center">
+   <ul class="nav navbar-nav navbar-center">
     <li><a href="#">Who am I?</a></li>
        <li><a href="#">Who are you?</a></li>
          <li><a href="#">Contact</a></li>
@@ -55,14 +53,15 @@
    
    
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Sign up</a></li>
+        <li><a href="#">Link</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Log in <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Forgot Username</a></li>
-            <li><a href="#">Forgot Password</a></li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Separated link</a></li>
           </ul>
         </li>
       </ul>
@@ -70,64 +69,72 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container-fluid">
 
 
+<hr>
+<div class="container">
+          <!-- Comments Form -->
+          <div class="card my-4">
+            <h4 class="card-header">Geef je commentaar:</h4>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
 
-		<!-- De tekst-->
-		<p class="lead">Wat heb ik gedaan in de vakantie?</p>
-		
-		<hr>
+          
+</div>
 
+<div class="container " style="margin-top: 15px"> 
 
-		
-	<div >
-		<p>Voor deze vakantie had ik niets anders gedaan dan gewerkt. Dit
-			komt door het feit dat ik vorig schooljaar mijn rijlessen examen
-			theorie ben geslaagd, het plan was dan natuurlijk om zo snel mogelijk
-			praktijk af te leggen en dan zo snel mogelijk een auto te kopen. Maar
-			om een auto te kopen heb ik natuurlijk geld nodig en besloot ik deze
-			zomer vooral een zomerjob te doen.</p>
+<div class="row " >
+<div class="col-sm-1">
+<div class="thumbnail">
+<img class="standaard photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+</div>
+</div>
+
+<div class="col-sm-5">
+<div class="panel panel-default">
+<div class="panel-heading">
+<strong>RandomForTheWin</strong> <span class="text-muted">Schreef 5 weken terug</span>
+</div>
+<div class="panel-body">
+First!
+</div>
+</div>
+</div>
+
+<div class="col-sm-1">
+<div class="thumbnail">
+<img class="standaard foto" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+</div>
+</div>
+
+<div class="col-sm-5">
+<div class="panel panel-default">
+<div class="panel-heading">
+<strong>MrNobody</strong> <span class="text-muted">Schreef 3 weken terug</span>
+</div>
+<div class="panel-body">
+Second!
+</div><!-- /panel-body -->
+</div><!-- /panel panel-default -->
+</div><!-- /col-sm-5 -->
+</div><!-- /row -->
 
 </div>
 
-		</hr>
-
-
-
-		<!--voegt de afbeelding toe -->
-          <img class="img-fluid rounded" src="afbeelding/studentenjob.jpg"  alt="studentenjob">
-		  <hr>
-
-		<h4>De zomerjob</h4>
-		<p >
-		Wat deed ik? Een arbeider zijn in een
-			fabriek, karton om specifiek te zijn. En ook nog verschillende soorten machines te gebruiken en aanpassen per soort karton</p>
-		
-		
-		<h4>Wat deed ik vooral?</h4>
-		<p>Mijn taken hingen vooral af van het juist leggen van kartonnen
-			op verschillende soorten machines met een tempo. Ik moeste ook
-			verschillende kleinere taken uitvoeren zoals het verpakken en
-			verleggen van de stapels</p>
-			
-			<h4>Hoeveel uren?</h4>
-		<p>Ik werkte van 13 uur tot 21 uur. Dus lange uren! </p>
-		
-		<h4>Vervoer?</h4>
-		<p>Met de fiets, ookal was het een paar kilometers fietsen. Het fietsen was geen probleem maar na het werken werd het wel lastiger om naar huis te rijden dan naar het werk.
-	</div>
-
-<h4>In conclusie</h4>
-		<p>Een vakantie met een zware zomerjob, zeker!</p>
-
-
-
-
-<div class="footer">
+	<div class="footer">
 		&copy; Imran Basit 2017
 	</div>
-<script src="https://code.jquery.com/jquery-1.11.0.js" integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw=" crossorigin="anonymous"></script> 
+	
+
+	<script src="https://code.jquery.com/jquery-1.11.0.js" integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw=" crossorigin="anonymous"></script> 
 <script src="js/bootstrap.js"></script>
 </body>
 </html>
